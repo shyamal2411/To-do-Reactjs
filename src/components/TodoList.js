@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState} from 'react';
 import TodoForm from './TodoForm';
 import Todo from './Todo';
 
@@ -10,9 +10,10 @@ function TodoList() {
         if(!todo.text || /^\s*$/.test(todo.text)) {
             return ;
         }
+
         const newTodos =[todo, ...todos]
         setTodos(newTodos);
-        // console.log(...todos);
+        console.log(...todos);
     };
 
     //!Updating list Function.
@@ -20,14 +21,14 @@ function TodoList() {
           if(!newValue.text || /^\s*$/.test(newValue.text)) {
             return ;
         };
-        setTodos(prev => prev.map(item=>(item.id===todoId ? newValue : item)))
+        setTodos(prev => prev.map(item=>(item.id===todoId ? newValue : item)));
     
 };
 
     const removeTodo =id=>{
-        const removeArr =[...todos].filter(todo=>todo.id !==id);
+        const removedArr =[...todos].filter(todo=>todo.id !==id);
 
-        setTodos(removeArr);
+        setTodos(removedArr);
     };
 
 
