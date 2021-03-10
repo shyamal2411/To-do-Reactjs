@@ -8,16 +8,18 @@ cursive;
 }
 
 body {
-background: #ffffff;
+/* background: #6B7280; */
+background: #4B5563;
+
 }
 .todo-app {
     display: flex;
     flex-direction: column;
     justify-content: start;
     width: 498px;
-     box-shadow: 10px 10px 8px #FC3C3C;
+     box-shadow: 1px 1px 16px 7px #e5e7eb;
     min-height: 512px;
-    background: #303841;
+    background: #BE185D;
     text-align: center;
     margin: 76px auto;
     border-radius: 30px;
