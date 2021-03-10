@@ -19,7 +19,7 @@ background: #4B5563;
     width: 498px;
      box-shadow: 1px 1px 16px 7px #e5e7eb;
     min-height: 512px;
-    background: #BE185D;
+    background: #0f6de4;
     text-align: center;
     margin: 76px auto;
     border-radius: 30px;
@@ -78,7 +78,6 @@ h1 {
             rgba(17, 122, 255, 1) 100%);
     padding: 16px 22px;
 }
-
 .todo-container {
     display: flex;
     flex-direction: row;
@@ -113,9 +112,7 @@ h1 {
 }
 
 .todo-row:nth-child(4n + 3) {
-    background: linear-gradient(90deg,
-            rgba(20, 159, 255, 1) 0%,
-            rgba(17, 122, 255, 1) 100%);
+background: linear-gradient(399deg, #780206, #061161 74%);
 }
 
 .icons {
