@@ -131,7 +131,7 @@ background: linear-gradient(399deg, #780206, #061161 74%);
     color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
 
     .todo-app{
         max-width: 300px;
