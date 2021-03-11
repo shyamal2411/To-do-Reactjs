@@ -130,3 +130,21 @@ background: linear-gradient(399deg, #780206, #061161 74%);
 .edit-icon {
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+
+    .todo-app{
+        max-width: 300px;
+    }
+    .todo-button.edit{
+        padding: 8px 2px;
+    }
+    .todo-input.edit {
+        border: 1px solid;
+    }
+    .todo-input{
+        width: 266px;
+        border: 2px solid #5d0cff;
+    }
+    
+}
