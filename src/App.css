@@ -21,7 +21,7 @@ background: #4B5563;
     min-height: 512px;
     background: #0f6de4;
     text-align: center;
-    margin: 76px auto;
+    margin: 55px auto;
     border-radius: 30px;
     padding-bottom: 31px;
 }
@@ -136,17 +136,17 @@ background: linear-gradient(90deg,
 @media screen and (max-width: 480px) {
 
     .todo-app{
+        margin: top 2px;
         max-width: 300px;
     }
     .todo-button.edit{
         padding: 8px 2px;
     }
     .todo-input.edit {
-        border: 1px solid;
+        border: 1px solid #149fff;
     }
     .todo-input{
         width: 266px;
         border: 2px solid #5d0cff;
     }
-    
 }
